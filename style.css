@@ -15,7 +15,7 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
     margin: 0;
@@ -45,10 +45,10 @@ header nav ul li a {
 
 .hero h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
+    font-weight: 200;
     text-align: center;
     padding-top: 200px;
-    font-size: 50px;
+    font-size: 100px;
     color: #404040;
 }
 
@@ -74,33 +74,33 @@ header nav ul li a {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
     text-align: center;
-    padding: 60px;
-    font-size: 50px;
+    padding: 80px;
+    font-size: 80px;
 }
 
 .imgp {
     padding: 100px;
-    display: inline;
+    display: flexbox;
     position: relative;
 }
 
 .imga {
     padding: 50px;
-    display: inline;
     position: relative;
+    justify-content: center;
 }
 
 .info {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 100;
+    padding: 100px;
 }
 
 .info h1 {
     font-size: 50px;
     font-weight: lighter;
     padding-top: 50px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .info p {
@@ -110,12 +110,22 @@ header nav ul li a {
     color: #404040;
 }
 
-.about h1 {
+.main {
+    color: #ffffcc;
+    text-decoration: none;
+}
+
+.bodyinfo {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
     color: #404040;
     padding: 200px;
+    font-size: 30px;
+}
+
+.bodyinfo h1 {
+    font-weight: lighter;
 }
 
 .joinus {
@@ -135,10 +145,30 @@ header nav ul li a {
     display: block;
 }
 
+.form-input ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.form-input ul li {
+    padding: 10px;
+}
+
+.labelc {
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ffffcc;
+    border-width: thin;
+}
+
 .form button {
     color: #404040;
     background-color: #ffffcc;
     border-style: none;
     padding: 8px 18px;
     font-size: 12px;
+}
+
+@media screen {
+    
 }
